@@ -18,13 +18,13 @@
 pip install "git+https://github.com/ZekiZeybek/SimQC-TTN.git"
 ```
 
-### From a local clone (user install)
+### From a local clone 
 ```bash
 # run from the repo root (the folder with pyproject.toml; not inside src/)
 pip install .
 ```
 
-### Developer mode (editable)
+### Developer mode 
 ```bash
 # Useful for modifying the code as you develop and check ...
 # meaning you want to work on the code and see your changes take effect right away, without reinstalling the package each time
