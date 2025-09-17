@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simqc-ttn"
+version = "0.1.0"
+description = "Simulating Quantum Circuits using density matrix renormalization algorithm using tree tensor networks"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [{name="Zeki Zeybek", email="zeybek.zeki@proton.me"}]
+dependencies = [
+  "numpy==2.3.3",
+  "networkx==3.2.1",
+  "opt_einsum==3.4.0",
+  "cotengra==0.7.5",
+]
+
+[project.scripts]
+simqc-ttn = "simqc_ttn.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+
