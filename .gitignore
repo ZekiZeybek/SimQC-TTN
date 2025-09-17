@@ -4,3 +4,10 @@ __pycache__/
 *.egg
 eggs/
 .eggs/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+build/
+dist/
