@@ -33,7 +33,7 @@ pip install -e "."
 
 ## Usage
 
-### Quickstart (Python API)
+### Quickstart
 
 ```python
 # random_circuit_demo.py
